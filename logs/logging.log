@@ -1,0 +1,50 @@
+[2024-10-27 22:54:34,960: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-28 01:15:35,426: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-28 01:15:35,433: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-28 01:15:35,444: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-28 01:15:35,451: INFO: common: Directory created at artifacts]
+[2024-10-28 01:20:17,617: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-28 01:20:17,619: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-28 01:20:17,621: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-28 01:20:17,621: INFO: common: Directory created at artifacts]
+[2024-10-28 01:20:31,889: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-28 01:20:31,890: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-28 01:20:31,891: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-28 01:20:31,892: INFO: common: Directory created at artifacts]
+[2024-10-28 01:20:41,710: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-28 01:20:41,711: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-28 01:20:41,712: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-28 01:20:41,713: INFO: common: Directory created at artifacts]
+[2024-10-28 01:20:41,714: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-28 01:23:22,867: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-28 01:23:22,868: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-28 01:23:22,869: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-28 01:23:22,869: INFO: common: Directory created at artifacts]
+[2024-10-28 01:23:22,870: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-28 01:23:23,635: INFO: 393514883: artifacts/data_ingestion/data.zip downloaded with following info 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2253:3D1C44:5BC63:72893:671E9A32
+Accept-Ranges: bytes
+Date: Sun, 27 Oct 2024 19:53:23 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100020-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1730058803.424782,VS0,VE286
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 55755d1b6fc786f8a0c456f13752ed5840a73e07
+Expires: Sun, 27 Oct 2024 19:58:23 GMT
+Source-Age: 0
+
+]
