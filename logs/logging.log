@@ -48,3 +48,37 @@ Expires: Sun, 27 Oct 2024 19:58:23 GMT
 Source-Age: 0
 
 ]
+[2024-10-28 01:49:35,597: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-28 01:49:35,598: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-28 01:49:35,598: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-28 01:49:35,599: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-28 01:49:35,599: INFO: common: Directory created at artifacts]
+[2024-10-28 01:49:35,599: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-28 01:49:36,376: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following info 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2253:3D1C44:5BC63:72893:671E9A32
+Accept-Ranges: bytes
+Date: Sun, 27 Oct 2024 20:19:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100024-HYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1730060376.145680,VS0,VE281
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0e39e1d873d04e61ed3e10d1223bb1dbca169817
+Expires: Sun, 27 Oct 2024 20:24:36 GMT
+Source-Age: 0
+
+]
+[2024-10-28 01:49:36,379: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
