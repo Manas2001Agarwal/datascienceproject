@@ -785,3 +785,14 @@ ensure.main.EnsureError: Argument path_to_json of type <class 'str'> to <functio
 [2024-10-29 23:14:53,319: INFO: common: Directory created at artifacts/model_evaluation]
 [2024-10-29 23:14:54,082: INFO: common: JSON at path artifacts/model_evaluation/metrics.json saved]
 [2024-10-29 23:15:08,442: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-30 01:19:00,913: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.100:8080]
+[2024-10-30 01:19:00,914: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-30 01:19:11,715: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 01:19:11] "GET / HTTP/1.1" 200 -]
+[2024-10-30 01:19:11,735: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 01:19:11] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2024-10-30 01:19:11,783: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 01:19:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-10-30 01:19:44,135: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 01:19:44] "POST /predict HTTP/1.1" 200 -]
+[2024-10-30 01:19:44,175: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 01:19:44] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -]
+[2024-10-30 01:19:44,176: INFO: _internal: 127.0.0.1 - - [30/Oct/2024 01:19:44] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -]
