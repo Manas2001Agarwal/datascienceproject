@@ -287,3 +287,501 @@ box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'train_data_nam
 [2024-10-29 20:01:28,062: INFO: common: Directory created at artifacts]
 [2024-10-29 20:01:28,062: INFO: common: Directory created at artifacts/model_trainer]
 [2024-10-29 20:01:28,074: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:55:09,589: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:55:09,590: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:55:09,591: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:55:09,592: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:55:09,592: INFO: common: Directory created at artifacts]
+[2024-10-29 22:55:09,592: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 22:55:09,592: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 22:55:09,594: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:55:09,594: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:55:09,595: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:55:09,595: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:55:09,596: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:55:09,596: INFO: common: Directory created at artifacts]
+[2024-10-29 22:55:09,596: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 22:55:09,601: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:55:09,601: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:55:09,602: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:55:09,603: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:55:09,604: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:55:09,604: INFO: common: Directory created at artifacts]
+[2024-10-29 22:55:09,604: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 22:55:09,616: INFO: data_transformation: Test test split done]
+[2024-10-29 22:55:09,616: INFO: data_transformation: (1199, 12)]
+[2024-10-29 22:55:09,616: INFO: data_transformation: (400, 12)]
+[2024-10-29 22:55:09,616: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:55:09,616: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:55:09,617: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:55:09,617: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:55:09,618: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:55:09,618: INFO: common: Directory created at artifacts]
+[2024-10-29 22:55:09,618: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 22:55:09,624: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:55:09,624: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:55:09,625: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:55:09,625: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:55:09,626: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:55:09,626: INFO: common: Directory created at artifacts]
+[2024-10-29 22:55:09,627: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 22:55:09,627: ERROR: main: ModelEvaluationConfig.__init__() got an unexpected keyword argument 'model_uri']
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 10, in initiate_model_evaluation
+    evaluation_config = config.get_model_evaluation_config()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/config/configuration.py", line 77, in get_model_evaluation_config
+    model_evaluation_config = ModelEvaluationConfig(
+TypeError: ModelEvaluationConfig.__init__() got an unexpected keyword argument 'model_uri'
+[2024-10-29 22:56:05,808: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:56:05,809: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:56:05,810: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:56:05,811: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:56:05,811: INFO: common: Directory created at artifacts]
+[2024-10-29 22:56:05,811: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 22:56:05,811: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 22:56:05,812: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:56:05,812: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:56:05,813: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:56:05,814: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:56:05,814: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:56:05,815: INFO: common: Directory created at artifacts]
+[2024-10-29 22:56:05,815: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 22:56:05,819: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:56:05,819: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:56:05,820: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:56:05,821: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:56:05,821: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:56:05,821: INFO: common: Directory created at artifacts]
+[2024-10-29 22:56:05,821: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 22:56:05,833: INFO: data_transformation: Test test split done]
+[2024-10-29 22:56:05,833: INFO: data_transformation: (1199, 12)]
+[2024-10-29 22:56:05,833: INFO: data_transformation: (400, 12)]
+[2024-10-29 22:56:05,833: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:56:05,833: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:56:05,834: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:56:05,834: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:56:05,835: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:56:05,835: INFO: common: Directory created at artifacts]
+[2024-10-29 22:56:05,835: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 22:56:05,841: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:56:05,841: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:56:05,842: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:56:05,843: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:56:05,843: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:56:05,844: INFO: common: Directory created at artifacts]
+[2024-10-29 22:56:05,844: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 22:56:05,846: ERROR: main: [Errno 20] Not a directory: 'artifacts/model_trainer/model.joblib/.trash']
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 12, in initiate_model_evaluation
+    model_evaluation.evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/components/model_evaluation.py", line 24, in evaluation
+    with mlflow.start_run():
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 328, in start_run
+    client = MlflowClient()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/client.py", line 134, in __init__
+    self._tracking_client = TrackingServiceClient(final_tracking_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 82, in __init__
+    self.store
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 86, in store
+    return utils._get_store(self.tracking_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/utils.py", line 208, in _get_store
+    return _tracking_store_registry.get_store(store_uri, artifact_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/registry.py", line 42, in get_store
+    return self._get_store_with_resolved_uri(resolved_store_uri, artifact_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/registry.py", line 52, in _get_store_with_resolved_uri
+    return builder(store_uri=resolved_store_uri, artifact_uri=artifact_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/utils.py", line 130, in _get_file_store
+    return FileStore(store_uri, store_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 194, in __init__
+    mkdir(self.trash_folder)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 211, in mkdir
+    raise e
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 208, in mkdir
+    os.makedirs(target, exist_ok=True)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+NotADirectoryError: [Errno 20] Not a directory: 'artifacts/model_trainer/model.joblib/.trash'
+[2024-10-29 22:58:14,471: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:58:14,473: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:58:14,473: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:58:14,474: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:58:14,474: INFO: common: Directory created at artifacts]
+[2024-10-29 22:58:14,474: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 22:58:14,474: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 22:58:14,476: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:58:14,476: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:58:14,477: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:58:14,478: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:58:14,478: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:58:14,478: INFO: common: Directory created at artifacts]
+[2024-10-29 22:58:14,479: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 22:58:14,482: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:58:14,482: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:58:14,484: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:58:14,484: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:58:14,485: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:58:14,485: INFO: common: Directory created at artifacts]
+[2024-10-29 22:58:14,485: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 22:58:14,497: INFO: data_transformation: Test test split done]
+[2024-10-29 22:58:14,497: INFO: data_transformation: (1199, 12)]
+[2024-10-29 22:58:14,497: INFO: data_transformation: (400, 12)]
+[2024-10-29 22:58:14,497: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:58:14,497: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:58:14,499: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:58:14,499: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:58:14,500: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:58:14,500: INFO: common: Directory created at artifacts]
+[2024-10-29 22:58:14,500: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 22:58:14,505: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 22:58:14,505: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 22:58:14,506: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 22:58:14,507: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 22:58:14,507: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 22:58:14,507: INFO: common: Directory created at artifacts]
+[2024-10-29 22:58:14,507: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 22:58:14,510: ERROR: main: [Errno 20] Not a directory: 'artifacts/model_trainer/model.joblib/.trash']
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 12, in initiate_model_evaluation
+    model_evaluation.evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/components/model_evaluation.py", line 24, in evaluation
+    with mlflow.start_run():
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 328, in start_run
+    client = MlflowClient()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/client.py", line 134, in __init__
+    self._tracking_client = TrackingServiceClient(final_tracking_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 82, in __init__
+    self.store
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 86, in store
+    return utils._get_store(self.tracking_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/utils.py", line 208, in _get_store
+    return _tracking_store_registry.get_store(store_uri, artifact_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/registry.py", line 42, in get_store
+    return self._get_store_with_resolved_uri(resolved_store_uri, artifact_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/registry.py", line 52, in _get_store_with_resolved_uri
+    return builder(store_uri=resolved_store_uri, artifact_uri=artifact_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/utils.py", line 130, in _get_file_store
+    return FileStore(store_uri, store_uri)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/store/tracking/file_store.py", line 194, in __init__
+    mkdir(self.trash_folder)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 211, in mkdir
+    raise e
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/file_utils.py", line 208, in mkdir
+    os.makedirs(target, exist_ok=True)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+NotADirectoryError: [Errno 20] Not a directory: 'artifacts/model_trainer/model.joblib/.trash'
+[2024-10-29 23:02:51,228: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:02:51,230: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:02:51,230: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:02:51,231: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:02:51,231: INFO: common: Directory created at artifacts]
+[2024-10-29 23:02:51,232: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 23:02:51,232: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 23:02:51,233: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:02:51,233: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:02:51,235: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:02:51,235: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:02:51,236: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:02:51,236: INFO: common: Directory created at artifacts]
+[2024-10-29 23:02:51,236: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 23:02:51,240: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:02:51,240: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:02:51,241: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:02:51,241: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:02:51,242: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:02:51,242: INFO: common: Directory created at artifacts]
+[2024-10-29 23:02:51,242: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 23:02:51,253: INFO: data_transformation: Test test split done]
+[2024-10-29 23:02:51,253: INFO: data_transformation: (1199, 12)]
+[2024-10-29 23:02:51,253: INFO: data_transformation: (400, 12)]
+[2024-10-29 23:02:51,253: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:02:51,253: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:02:51,254: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:02:51,255: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:02:51,255: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:02:51,256: INFO: common: Directory created at artifacts]
+[2024-10-29 23:02:51,256: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 23:02:51,262: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:02:51,262: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:02:51,263: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:02:51,263: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:02:51,264: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:02:51,264: INFO: common: Directory created at artifacts]
+[2024-10-29 23:02:51,264: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 23:02:51,980: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 12, in initiate_model_evaluation
+    model_evaluation.evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/components/model_evaluation.py", line 24, in evaluation
+    with mlflow.start_run():
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 418, in start_run
+    active_run_obj = client.create_run(
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/client.py", line 393, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 168, in create_run
+    return self.store.create_run(
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/store/tracking/rest_store.py", line 209, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/store/tracking/rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/rest_utils.py", line 370, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/rest_utils.py", line 246, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2024-10-29 23:07:17,535: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:07:17,536: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:07:17,537: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:07:17,538: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:07:17,538: INFO: common: Directory created at artifacts]
+[2024-10-29 23:07:17,538: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 23:07:17,538: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 23:07:17,539: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:07:17,539: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:07:17,540: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:07:17,541: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:07:17,541: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:07:17,542: INFO: common: Directory created at artifacts]
+[2024-10-29 23:07:17,542: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 23:07:17,546: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:07:17,546: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:07:17,547: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:07:17,547: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:07:17,548: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:07:17,548: INFO: common: Directory created at artifacts]
+[2024-10-29 23:07:17,548: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 23:07:17,558: INFO: data_transformation: Test test split done]
+[2024-10-29 23:07:17,558: INFO: data_transformation: (1199, 12)]
+[2024-10-29 23:07:17,559: INFO: data_transformation: (400, 12)]
+[2024-10-29 23:07:17,559: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:07:17,559: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:07:17,560: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:07:17,560: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:07:17,561: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:07:17,561: INFO: common: Directory created at artifacts]
+[2024-10-29 23:07:17,561: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 23:07:17,567: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:07:17,567: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:07:17,569: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:07:17,569: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:07:17,570: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:07:17,570: INFO: common: Directory created at artifacts]
+[2024-10-29 23:07:17,570: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 23:07:18,215: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 12, in initiate_model_evaluation
+    model_evaluation.evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/components/model_evaluation.py", line 24, in evaluation
+    with mlflow.start_run():
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/fluent.py", line 418, in start_run
+    active_run_obj = client.create_run(
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/client.py", line 393, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/tracking/_tracking_service/client.py", line 168, in create_run
+    return self.store.create_run(
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/store/tracking/rest_store.py", line 209, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/store/tracking/rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/rest_utils.py", line 370, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/mlflow/utils/rest_utils.py", line 246, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2024-10-29 23:10:41,520: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:10:41,522: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:10:41,522: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:10:41,523: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:10:41,523: INFO: common: Directory created at artifacts]
+[2024-10-29 23:10:41,523: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 23:10:41,523: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 23:10:41,525: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:10:41,525: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:10:41,527: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:10:41,527: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:10:41,528: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:10:41,528: INFO: common: Directory created at artifacts]
+[2024-10-29 23:10:41,528: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 23:10:41,531: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:10:41,531: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:10:41,533: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:10:41,533: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:10:41,534: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:10:41,534: INFO: common: Directory created at artifacts]
+[2024-10-29 23:10:41,534: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 23:10:41,546: INFO: data_transformation: Test test split done]
+[2024-10-29 23:10:41,546: INFO: data_transformation: (1199, 12)]
+[2024-10-29 23:10:41,546: INFO: data_transformation: (400, 12)]
+[2024-10-29 23:10:41,546: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:10:41,546: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:10:41,547: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:10:41,547: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:10:41,548: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:10:41,549: INFO: common: Directory created at artifacts]
+[2024-10-29 23:10:41,549: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 23:10:41,554: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:10:41,554: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:10:41,555: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:10:41,556: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:10:41,556: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:10:41,556: INFO: common: Directory created at artifacts]
+[2024-10-29 23:10:41,556: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 23:10:43,202: ERROR: main: Argument path_to_json of type <class 'dict'> to <function save_json at 0x1065d43a0> does not match annotation type <class 'pathlib.Path'>]
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 12, in initiate_model_evaluation
+    model_evaluation.evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/components/model_evaluation.py", line 37, in evaluation
+    save_json(metrics_dict)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/ensure/main.py", line 833, in __call__
+    raise EnsureError(msg.format(arg=arg, f=self.f, t=templ, valt=type(value)))
+ensure.main.EnsureError: Argument path_to_json of type <class 'dict'> to <function save_json at 0x1065d43a0> does not match annotation type <class 'pathlib.Path'>
+[2024-10-29 23:12:10,658: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:12:10,660: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:12:10,661: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:12:10,662: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:12:10,662: INFO: common: Directory created at artifacts]
+[2024-10-29 23:12:10,662: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 23:12:10,662: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 23:12:10,664: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:12:10,664: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:12:10,665: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:12:10,665: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:12:10,666: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:12:10,666: INFO: common: Directory created at artifacts]
+[2024-10-29 23:12:10,666: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 23:12:10,671: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:12:10,671: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:12:10,672: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:12:10,672: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:12:10,673: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:12:10,673: INFO: common: Directory created at artifacts]
+[2024-10-29 23:12:10,673: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 23:12:10,686: INFO: data_transformation: Test test split done]
+[2024-10-29 23:12:10,686: INFO: data_transformation: (1199, 12)]
+[2024-10-29 23:12:10,686: INFO: data_transformation: (400, 12)]
+[2024-10-29 23:12:10,687: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:12:10,687: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:12:10,688: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:12:10,688: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:12:10,689: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:12:10,689: INFO: common: Directory created at artifacts]
+[2024-10-29 23:12:10,689: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 23:12:10,700: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:12:10,700: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:12:10,701: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:12:10,702: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:12:10,702: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:12:10,702: INFO: common: Directory created at artifacts]
+[2024-10-29 23:12:10,702: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 23:12:12,826: ERROR: main: Argument path_to_json of type <class 'str'> to <function save_json at 0x1064c83a0> does not match annotation type <class 'pathlib.Path'>]
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 12, in initiate_model_evaluation
+    model_evaluation.evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/components/model_evaluation.py", line 37, in evaluation
+    save_json(self.config.metrics_file,metrics_dict)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/ensure/main.py", line 833, in __call__
+    raise EnsureError(msg.format(arg=arg, f=self.f, t=templ, valt=type(value)))
+ensure.main.EnsureError: Argument path_to_json of type <class 'str'> to <function save_json at 0x1064c83a0> does not match annotation type <class 'pathlib.Path'>
+[2024-10-29 23:13:26,584: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:13:26,585: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:13:26,586: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:13:26,587: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:13:26,587: INFO: common: Directory created at artifacts]
+[2024-10-29 23:13:26,587: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 23:13:26,587: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 23:13:26,589: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:13:26,589: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:13:26,590: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:13:26,590: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:13:26,591: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:13:26,591: INFO: common: Directory created at artifacts]
+[2024-10-29 23:13:26,592: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 23:13:26,596: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:13:26,596: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:13:26,598: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:13:26,598: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:13:26,599: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:13:26,599: INFO: common: Directory created at artifacts]
+[2024-10-29 23:13:26,599: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 23:13:26,614: INFO: data_transformation: Test test split done]
+[2024-10-29 23:13:26,614: INFO: data_transformation: (1199, 12)]
+[2024-10-29 23:13:26,615: INFO: data_transformation: (400, 12)]
+[2024-10-29 23:13:26,615: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:13:26,615: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:13:26,616: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:13:26,616: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:13:26,617: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:13:26,617: INFO: common: Directory created at artifacts]
+[2024-10-29 23:13:26,617: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 23:13:26,622: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:13:26,622: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:13:26,624: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:13:26,624: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:13:26,625: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:13:26,625: INFO: common: Directory created at artifacts]
+[2024-10-29 23:13:26,625: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 23:13:28,409: ERROR: main: Argument path_to_json of type <class 'str'> to <function save_json at 0x104ef03a0> does not match annotation type <class 'pathlib.Path'>]
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 52, in <module>
+    obj.initiate_model_evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_evaluation_pipeline.py", line 12, in initiate_model_evaluation
+    model_evaluation.evaluation()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/components/model_evaluation.py", line 37, in evaluation
+    save_json(self.config.metrics_file,metrics_dict)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/ensure/main.py", line 833, in __call__
+    raise EnsureError(msg.format(arg=arg, f=self.f, t=templ, valt=type(value)))
+ensure.main.EnsureError: Argument path_to_json of type <class 'str'> to <function save_json at 0x104ef03a0> does not match annotation type <class 'pathlib.Path'>
+[2024-10-29 23:14:53,281: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:14:53,282: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:14:53,283: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:14:53,284: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:14:53,284: INFO: common: Directory created at artifacts]
+[2024-10-29 23:14:53,284: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 23:14:53,284: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 23:14:53,287: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:14:53,287: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:14:53,288: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:14:53,289: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:14:53,289: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:14:53,290: INFO: common: Directory created at artifacts]
+[2024-10-29 23:14:53,290: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 23:14:53,295: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:14:53,295: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:14:53,296: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:14:53,297: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:14:53,298: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:14:53,298: INFO: common: Directory created at artifacts]
+[2024-10-29 23:14:53,298: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 23:14:53,308: INFO: data_transformation: Test test split done]
+[2024-10-29 23:14:53,309: INFO: data_transformation: (1199, 12)]
+[2024-10-29 23:14:53,309: INFO: data_transformation: (400, 12)]
+[2024-10-29 23:14:53,309: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:14:53,309: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:14:53,310: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:14:53,310: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:14:53,311: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:14:53,311: INFO: common: Directory created at artifacts]
+[2024-10-29 23:14:53,311: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 23:14:53,317: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 23:14:53,317: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 23:14:53,318: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 23:14:53,318: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 23:14:53,319: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 23:14:53,319: INFO: common: Directory created at artifacts]
+[2024-10-29 23:14:53,319: INFO: common: Directory created at artifacts/model_evaluation]
+[2024-10-29 23:14:54,082: INFO: common: JSON at path artifacts/model_evaluation/metrics.json saved]
+[2024-10-29 23:15:08,442: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
