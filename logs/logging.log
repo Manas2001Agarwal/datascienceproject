@@ -156,3 +156,134 @@ Source-Age: 0
 [2024-10-29 11:38:11,374: INFO: data_transformation: (1199, 12)]
 [2024-10-29 11:38:11,374: INFO: data_transformation: (400, 12)]
 [2024-10-29 11:38:11,374: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 20:00:22,536: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:00:22,537: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:00:22,537: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:00:22,538: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:00:22,538: INFO: common: Directory created at artifacts]
+[2024-10-29 20:00:22,539: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 20:00:22,539: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 20:00:22,541: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 20:00:22,541: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:00:22,542: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:00:22,542: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:00:22,543: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:00:22,544: INFO: common: Directory created at artifacts]
+[2024-10-29 20:00:22,544: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 20:00:22,552: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 20:00:22,552: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:00:22,553: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:00:22,553: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:00:22,554: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:00:22,554: INFO: common: Directory created at artifacts]
+[2024-10-29 20:00:22,554: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 20:00:22,569: INFO: data_transformation: Test test split done]
+[2024-10-29 20:00:22,569: INFO: data_transformation: (1199, 12)]
+[2024-10-29 20:00:22,569: INFO: data_transformation: (400, 12)]
+[2024-10-29 20:00:22,569: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 20:00:22,569: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:00:22,571: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:00:22,571: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:00:22,573: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:00:22,573: INFO: common: Directory created at artifacts]
+[2024-10-29 20:00:22,573: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 20:00:22,573: ERROR: main: "'ConfigBox' object has no attribute 'train_data_name'"]
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 593, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'train_data_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 632, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 620, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'train_data_name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 634, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'train_data_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/config_box.py", line 29, in __getattr__
+    return super().__getattr__(item)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 648, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'train_data_name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 593, in __getitem__
+    return super().__getitem__(item)
+KeyError: 'train_data_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 632, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 620, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'train_data_name'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 634, in __getattr__
+    value = object.__getattribute__(self, item)
+AttributeError: 'ConfigBox' object has no attribute 'train_data_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/main.py", line 41, in <module>
+    obj.initiate_model_training()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/pipeline/model_trainer_pipeline.py", line 12, in initiate_model_training
+    model_trainer_config = config.get_model_trainer_config()
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/src/datascience/config/configuration.py", line 62, in get_model_trainer_config
+    model_name = config.train_data_name,
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/config_box.py", line 31, in __getattr__
+    return super().__getattr__(item.lower())
+  File "/Users/mukulagarwal/Desktop/Projects/datascienceproject/prjt3/lib/python3.10/site-packages/box/box.py", line 648, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'train_data_name'"
+[2024-10-29 20:01:28,038: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:01:28,040: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:01:28,040: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:01:28,041: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:01:28,041: INFO: common: Directory created at artifacts]
+[2024-10-29 20:01:28,041: INFO: common: Directory created at artifacts/data_ingestion]
+[2024-10-29 20:01:28,041: INFO: data_ingestion: artifacts/data_ingestion/data.zip file already exists]
+[2024-10-29 20:01:28,043: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 20:01:28,043: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:01:28,044: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:01:28,044: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:01:28,045: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:01:28,045: INFO: common: Directory created at artifacts]
+[2024-10-29 20:01:28,045: INFO: common: Directory created at artifacts/data_validation]
+[2024-10-29 20:01:28,047: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 20:01:28,048: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:01:28,049: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:01:28,049: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:01:28,050: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:01:28,050: INFO: common: Directory created at artifacts]
+[2024-10-29 20:01:28,050: INFO: common: Directory created at artifacts/data_transformation]
+[2024-10-29 20:01:28,060: INFO: data_transformation: Test test split done]
+[2024-10-29 20:01:28,060: INFO: data_transformation: (1199, 12)]
+[2024-10-29 20:01:28,060: INFO: data_transformation: (400, 12)]
+[2024-10-29 20:01:28,060: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
+[2024-10-29 20:01:28,060: INFO: main: >>>>>>> stage {STAGE_NAME} started >>>>>>]
+[2024-10-29 20:01:28,061: INFO: common: yaml file at config/config.yaml loaded successfully]
+[2024-10-29 20:01:28,062: INFO: common: yaml file at params.yaml loaded successfully]
+[2024-10-29 20:01:28,062: INFO: common: yaml file at schema.yaml loaded successfully]
+[2024-10-29 20:01:28,062: INFO: common: Directory created at artifacts]
+[2024-10-29 20:01:28,062: INFO: common: Directory created at artifacts/model_trainer]
+[2024-10-29 20:01:28,074: INFO: main: >>>>>>> stage {STAGE_NAME} completed >>>>>>]
